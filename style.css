@@ -1,0 +1,62 @@
+pre {
+  color:rgb(255,0,255);
+  font-size: 15px;
+  font-family: verdana;
+  border: 1px solid blue;
+}
+
+#MasteqLink:hover{
+    color:red;
+    text-decoration-line:underline;
+}
+
+#MasteqLink:visited{
+  background-color: orange;
+  text-decoration-color:red;
+}
+
+#explanation:hover{
+  color:green;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+#Adam:hover{
+  width: 128;
+  height: 128;
+  image:url('god.jpg');
+  float:left;
+}
+
+#coolTable, tr, td, th{
+  border: 1px solid white;
+  border-collapse:collapse;
+}
+
+#divTable{
+  background-color: black;
+  color: white;
+  font-family:comic;
+}
+
+div.arnold{
+  background-color: black;
+  font-size: 30px;
+  color:white;
+  margin: 20px 0px 20px 0px;
+  padding:20px;
+}
+
+div.clock{
+  background-color: blue;
+  color:white;
+}
+
+.login{
+  color: white;
+}
+
+.title{
+  text-align: center;
+  color:white;
+}
