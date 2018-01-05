@@ -1,62 +1,116 @@
-pre {
-  color:rgb(255,0,255);
-  font-size: 15px;
-  font-family: verdana;
-  border: 1px solid blue;
+/*Classes: topnav {}, devblog {blogpost}, services {serviceboard}, projects {}, contact {} */
+body {
+  /*background: linear-gradient(90deg, white, gray);*/
+  background-color: #eee;
 }
 
-#MasteqLink:hover{
-    color:red;
-    text-decoration-line:underline;
-}
+/* SERVICE CSS */
+.services{
 
-#MasteqLink:visited{
-  background-color: orange;
-  text-decoration-color:red;
 }
-
-#explanation:hover{
-  color:green;
-  font-family: verdana;
-  font-size: 20px;
-}
-
-#Adam:hover{
-  width: 128;
-  height: 128;
-  image:url('god.jpg');
-  float:left;
-}
-
-#coolTable, tr, td, th{
-  border: 1px solid white;
-  border-collapse:collapse;
-}
-
-#divTable{
-  background-color: black;
-  color: white;
-  font-family:comic;
-}
-
-div.arnold{
-  background-color: black;
-  font-size: 30px;
-  color:white;
-  margin: 20px 0px 20px 0px;
-  padding:20px;
-}
-
-div.clock{
-  background-color: blue;
-  color:white;
-}
-
-.login{
-  color: white;
-}
-
-.title{
+.serviceboard{
+  padding: 5em;
   text-align: center;
-  color:white;
+}
+.serviceboard h4{
+  font-style: normal;
+}
+
+/* END SERVICE CSS */
+
+/* BLOG CSS */
+.devblog{
+  margin-left: 0px;
+  padding: 5em;
+}
+
+.blogpost p,ul,li{
+  margin-left: 10px
+  margin: 5px;
+  text-align:left;
+  font-size:13px;
+}
+/* END BLOG CSS */
+
+
+.topnav {
+    background-color:black;
+    /*#333;*/
+    overflow: hidden;
+
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 2px 0;
+    z-index: 1;
+}
+/* Style the links inside the navigation bar */
+div.topnav img{
+  float: left;
+  text-align: center;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    /*#f2f2f2;*/
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+/* Change the color of links on hover #ddd*/
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+body, h1, p {
+  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#MainTitle{
+  font-size: 60px;
+}
+.container {
+  margin-left:  auto;
+  margin-right:  auto;
+  margin-top: 177px;
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row:before, .row:after {
+  display: table;
+  content: " ";
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+
+.lead {
+  font-size: 21px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+a {
+  color: #3282e6;
+  text-decoration: none;
 }
